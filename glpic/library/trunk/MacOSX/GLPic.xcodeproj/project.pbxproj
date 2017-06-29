@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C59B9C060D7447000069EB60 /* Size2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9BFC0D7447000069EB60 /* Size2D.cpp */; };
+		C59B9C070D7447000069EB60 /* PixelFormatUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9BFD0D7447000069EB60 /* PixelFormatUtil.cpp */; };
+		C59B9C080D7447000069EB60 /* OpenGLUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9BFE0D7447000069EB60 /* OpenGLUtil.cpp */; };
+		C59B9C090D7447000069EB60 /* MipMapUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9BFF0D7447000069EB60 /* MipMapUtil.cpp */; };
+		C59B9C0A0D7447000069EB60 /* GLPicHeader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9C000D7447000069EB60 /* GLPicHeader.cpp */; };
+		C59B9C0B0D7447000069EB60 /* GLPic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9C010D7447000069EB60 /* GLPic.cpp */; };
+		C59B9C0C0D7447000069EB60 /* DataCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9C020D7447000069EB60 /* DataCreator.cpp */; };
+		C59B9C0D0D7447000069EB60 /* ByteOrderUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9C030D7447000069EB60 /* ByteOrderUtil.cpp */; };
+		C59B9C0E0D7447000069EB60 /* BitUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9C040D7447000069EB60 /* BitUtil.cpp */; };
+		C59B9C0F0D7447000069EB60 /* BinaryData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9C050D7447000069EB60 /* BinaryData.cpp */; };
+		C5A47A4C0D746CF800CD8289 /* BinaryData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9C050D7447000069EB60 /* BinaryData.cpp */; };
+		C5A47A4D0D746CF800CD8289 /* BitUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9C040D7447000069EB60 /* BitUtil.cpp */; };
+		C5A47A4E0D746CF800CD8289 /* ByteOrderUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9C030D7447000069EB60 /* ByteOrderUtil.cpp */; };
+		C5A47A4F0D746CF900CD8289 /* DataCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9C020D7447000069EB60 /* DataCreator.cpp */; };
+		C5A47A500D746CFA00CD8289 /* GLPic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9C010D7447000069EB60 /* GLPic.cpp */; };
+		C5A47A510D746CFA00CD8289 /* GLPicHeader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9C000D7447000069EB60 /* GLPicHeader.cpp */; };
+		C5A47A520D746CFB00CD8289 /* MipMapUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9BFF0D7447000069EB60 /* MipMapUtil.cpp */; };
+		C5A47A530D746CFB00CD8289 /* OpenGLUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9BFE0D7447000069EB60 /* OpenGLUtil.cpp */; };
+		C5A47A540D746CFC00CD8289 /* PixelFormatUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9BFD0D7447000069EB60 /* PixelFormatUtil.cpp */; };
+		C5A47A550D746CFD00CD8289 /* Size2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C59B9BFC0D7447000069EB60 /* Size2D.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C59B9BFC0D7447000069EB60 /* Size2D.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = Size2D.cpp; path = ../src/Size2D.cpp; sourceTree = SOURCE_ROOT; };
+		C59B9BFD0D7447000069EB60 /* PixelFormatUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = PixelFormatUtil.cpp; path = ../src/PixelFormatUtil.cpp; sourceTree = SOURCE_ROOT; };
+		C59B9BFE0D7447000069EB60 /* OpenGLUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = OpenGLUtil.cpp; path = ../src/OpenGLUtil.cpp; sourceTree = SOURCE_ROOT; };
+		C59B9BFF0D7447000069EB60 /* MipMapUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = MipMapUtil.cpp; path = ../src/MipMapUtil.cpp; sourceTree = SOURCE_ROOT; };
+		C59B9C000D7447000069EB60 /* GLPicHeader.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = GLPicHeader.cpp; path = ../src/GLPicHeader.cpp; sourceTree = SOURCE_ROOT; };
+		C59B9C010D7447000069EB60 /* GLPic.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = GLPic.cpp; path = ../src/GLPic.cpp; sourceTree = SOURCE_ROOT; };
+		C59B9C020D7447000069EB60 /* DataCreator.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = DataCreator.cpp; path = ../src/DataCreator.cpp; sourceTree = SOURCE_ROOT; };
+		C59B9C030D7447000069EB60 /* ByteOrderUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = ByteOrderUtil.cpp; path = ../src/ByteOrderUtil.cpp; sourceTree = SOURCE_ROOT; };
+		C59B9C040D7447000069EB60 /* BitUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = BitUtil.cpp; path = ../src/BitUtil.cpp; sourceTree = SOURCE_ROOT; };
+		C59B9C050D7447000069EB60 /* BinaryData.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryData.cpp; path = ../src/BinaryData.cpp; sourceTree = SOURCE_ROOT; };
+		C59B9C220D7448630069EB60 /* GLPic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GLPic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59B9C230D7448630069EB60 /* Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Framework-Info.plist"; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* libGLPic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGLPic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C59B9C200D7448630069EB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* GLPic */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				C59B9C230D7448630069EB60 /* Framework-Info.plist */,
+			);
+			name = GLPic;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C59B9BFC0D7447000069EB60 /* Size2D.cpp */,
+				C59B9BFD0D7447000069EB60 /* PixelFormatUtil.cpp */,
+				C59B9BFE0D7447000069EB60 /* OpenGLUtil.cpp */,
+				C59B9BFF0D7447000069EB60 /* MipMapUtil.cpp */,
+				C59B9C000D7447000069EB60 /* GLPicHeader.cpp */,
+				C59B9C010D7447000069EB60 /* GLPic.cpp */,
+				C59B9C020D7447000069EB60 /* DataCreator.cpp */,
+				C59B9C030D7447000069EB60 /* ByteOrderUtil.cpp */,
+				C59B9C040D7447000069EB60 /* BitUtil.cpp */,
+				C59B9C050D7447000069EB60 /* BinaryData.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libGLPic.a */,
+				C59B9C220D7448630069EB60 /* GLPic.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C59B9C1D0D7448630069EB60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C59B9C210D7448630069EB60 /* Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59B9C260D7448640069EB60 /* Build configuration list for PBXNativeTarget "Framework" */;
+			buildPhases = (
+				C59B9C1D0D7448630069EB60 /* Headers */,
+				C59B9C1E0D7448630069EB60 /* Resources */,
+				C59B9C1F0D7448630069EB60 /* Sources */,
+				C59B9C200D7448630069EB60 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework;
+			productName = Framework;
+			productReference = C59B9C220D7448630069EB60 /* GLPic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2AAC045055464E500DB518D /* Static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "Static" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Static;
+			productName = GLPic;
+			productReference = D2AAC046055464E500DB518D /* libGLPic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "GLPic" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* GLPic */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* Static */,
+				C59B9C210D7448630069EB60 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C59B9C1E0D7448630069EB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C59B9C1F0D7448630069EB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A47A4C0D746CF800CD8289 /* BinaryData.cpp in Sources */,
+				C5A47A4D0D746CF800CD8289 /* BitUtil.cpp in Sources */,
+				C5A47A4E0D746CF800CD8289 /* ByteOrderUtil.cpp in Sources */,
+				C5A47A4F0D746CF900CD8289 /* DataCreator.cpp in Sources */,
+				C5A47A500D746CFA00CD8289 /* GLPic.cpp in Sources */,
+				C5A47A510D746CFA00CD8289 /* GLPicHeader.cpp in Sources */,
+				C5A47A520D746CFB00CD8289 /* MipMapUtil.cpp in Sources */,
+				C5A47A530D746CFB00CD8289 /* OpenGLUtil.cpp in Sources */,
+				C5A47A540D746CFC00CD8289 /* PixelFormatUtil.cpp in Sources */,
+				C5A47A550D746CFD00CD8289 /* Size2D.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59B9C060D7447000069EB60 /* Size2D.cpp in Sources */,
+				C59B9C070D7447000069EB60 /* PixelFormatUtil.cpp in Sources */,
+				C59B9C080D7447000069EB60 /* OpenGLUtil.cpp in Sources */,
+				C59B9C090D7447000069EB60 /* MipMapUtil.cpp in Sources */,
+				C59B9C0A0D7447000069EB60 /* GLPicHeader.cpp in Sources */,
+				C59B9C0B0D7447000069EB60 /* GLPic.cpp in Sources */,
+				C59B9C0C0D7447000069EB60 /* DataCreator.cpp in Sources */,
+				C59B9C0D0D7447000069EB60 /* ByteOrderUtil.cpp in Sources */,
+				C59B9C0E0D7447000069EB60 /* BitUtil.cpp in Sources */,
+				C59B9C0F0D7447000069EB60 /* BinaryData.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GLPic;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GLPic;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../include";
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../include";
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = Release;
+		};
+		C59B9C240D7448640069EB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Framework-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GLPic;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C59B9C250D7448640069EB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Framework-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GLPic;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "Static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "GLPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59B9C260D7448640069EB60 /* Build configuration list for PBXNativeTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59B9C240D7448640069EB60 /* Debug */,
+				C59B9C250D7448640069EB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

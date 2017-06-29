@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F6A0486A84900D96B5E /* textga_conv.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* textga_conv.1 */; };
+		C54FA0ED0D043E6700A0E7FA /* ArgumentData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54FA0E90D043E6700A0E7FA /* ArgumentData.cpp */; };
+		C54FA0EE0D043E6700A0E7FA /* EntryPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54FA0EB0D043E6700A0E7FA /* EntryPoint.cpp */; };
+		C54FA12C0D0443B300A0E7FA /* Useage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54FA12B0D0443B300A0E7FA /* Useage.cpp */; };
+		C54FA1540D04474B00A0E7FA /* PixelFormatUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54FA1530D04474B00A0E7FA /* PixelFormatUtil.cpp */; };
+		C54FA1B10D045AB100A0E7FA /* ArgumentDataIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54FA1B00D045AB100A0E7FA /* ArgumentDataIterator.cpp */; };
+		C5CB2AAE0D1E8D2900A60444 /* ConvertRecipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5CB2AAD0D1E8D2900A60444 /* ConvertRecipe.cpp */; };
+		C5CB2AB10D1E8F4000A60444 /* CommandKindUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5CB2AB00D1E8F4000A60444 /* CommandKindUtil.cpp */; };
+		C5CB2AB60D1E918C00A60444 /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5CB2AB50D1E918C00A60444 /* StringUtil.cpp */; };
+		C5CB2AC50D1E94BD00A60444 /* Convert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5CB2AC40D1E94BD00A60444 /* Convert.cpp */; };
+		C5CB2BE50D1EA2F400A60444 /* TGAFileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5CB2BE40D1EA2F400A60444 /* TGAFileLoader.cpp */; };
+		C5CB2BED0D1EA42300A60444 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5CB2BEC0D1EA42300A60444 /* File.cpp */; };
+		C5CB2FDD0D1FA42000A60444 /* libsquish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CB2FDC0D1FA42000A60444 /* libsquish.a */; };
+		C5CB30AE0D1FD0FC00A60444 /* Endian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5CB30AD0D1FD0FC00A60444 /* Endian.cpp */; };
+		C5CB30B50D1FD1D400A60444 /* EndianUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5CB30B40D1FD1D400A60444 /* EndianUtil.cpp */; };
+		C5EF383D0D04371E007A3DDB /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5EF383C0D04371E007A3DDB /* Main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* textga_conv.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C5CB2E550D1F8BBD00A60444 /* フレームワークをコピー */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "フレームワークをコピー";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F6C0486A84900D96B5E /* textga_conv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = textga_conv; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54FA0E90D043E6700A0E7FA /* ArgumentData.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; path = ArgumentData.cpp; sourceTree = "<group>"; };
+		C54FA0EA0D043E6700A0E7FA /* ArgumentData.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = ArgumentData.hpp; sourceTree = "<group>"; };
+		C54FA0EB0D043E6700A0E7FA /* EntryPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; path = EntryPoint.cpp; sourceTree = "<group>"; };
+		C54FA0EC0D043E6700A0E7FA /* EntryPoint.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = EntryPoint.hpp; sourceTree = "<group>"; };
+		C54FA12A0D0443B300A0E7FA /* Useage.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = Useage.hpp; sourceTree = "<group>"; };
+		C54FA12B0D0443B300A0E7FA /* Useage.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; path = Useage.cpp; sourceTree = "<group>"; };
+		C54FA13D0D0446EF00A0E7FA /* PixelFormat.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = PixelFormat.hpp; sourceTree = "<group>"; };
+		C54FA1520D04474B00A0E7FA /* PixelFormatUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PixelFormatUtil.hpp; sourceTree = "<group>"; };
+		C54FA1530D04474B00A0E7FA /* PixelFormatUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PixelFormatUtil.cpp; sourceTree = "<group>"; };
+		C54FA1AE0D044D1000A0E7FA /* CommandKind.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CommandKind.hpp; sourceTree = "<group>"; };
+		C54FA1AF0D045AB100A0E7FA /* ArgumentDataIterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ArgumentDataIterator.hpp; sourceTree = "<group>"; };
+		C54FA1B00D045AB100A0E7FA /* ArgumentDataIterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArgumentDataIterator.cpp; sourceTree = "<group>"; };
+		C5CB2AAC0D1E8D2900A60444 /* ConvertRecipe.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = ConvertRecipe.hpp; sourceTree = "<group>"; };
+		C5CB2AAD0D1E8D2900A60444 /* ConvertRecipe.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertRecipe.cpp; sourceTree = "<group>"; };
+		C5CB2AAF0D1E8F4000A60444 /* CommandKindUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = CommandKindUtil.hpp; sourceTree = "<group>"; };
+		C5CB2AB00D1E8F4000A60444 /* CommandKindUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; path = CommandKindUtil.cpp; sourceTree = "<group>"; };
+		C5CB2AB40D1E918C00A60444 /* StringUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = StringUtil.hpp; sourceTree = "<group>"; };
+		C5CB2AB50D1E918C00A60444 /* StringUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringUtil.cpp; sourceTree = "<group>"; };
+		C5CB2AC30D1E94BD00A60444 /* Convert.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = Convert.hpp; sourceTree = "<group>"; };
+		C5CB2AC40D1E94BD00A60444 /* Convert.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; path = Convert.cpp; sourceTree = "<group>"; };
+		C5CB2BCF0D1EA13200A60444 /* TGAHeader.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = TGAHeader.hpp; sourceTree = "<group>"; };
+		C5CB2BE30D1EA2F400A60444 /* TGAFileLoader.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = TGAFileLoader.hpp; sourceTree = "<group>"; };
+		C5CB2BE40D1EA2F400A60444 /* TGAFileLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; path = TGAFileLoader.cpp; sourceTree = "<group>"; };
+		C5CB2BEB0D1EA42300A60444 /* File.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = File.hpp; sourceTree = "<group>"; };
+		C5CB2BEC0D1EA42300A60444 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		C5CB2CA40D1EB0F900A60444 /* Pixel.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = Pixel.hpp; sourceTree = "<group>"; };
+		C5CB2FDC0D1FA42000A60444 /* libsquish.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsquish.a; path = ../lib/MacOSX/squish/i386/libsquish.a; sourceTree = SOURCE_ROOT; };
+		C5CB304C0D1FC27600A60444 /* Assert.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = Assert.hpp; sourceTree = "<group>"; };
+		C5CB30AC0D1FD0FC00A60444 /* Endian.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = Endian.hpp; sourceTree = "<group>"; };
+		C5CB30AD0D1FD0FC00A60444 /* Endian.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; path = Endian.cpp; sourceTree = "<group>"; };
+		C5CB30B30D1FD1D400A60444 /* EndianUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = EndianUtil.hpp; sourceTree = "<group>"; };
+		C5CB30B40D1FD1D400A60444 /* EndianUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; path = EndianUtil.cpp; sourceTree = "<group>"; };
+		C5EF383C0D04371E007A3DDB /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; name = Main.cpp; path = ../src/Main.cpp; sourceTree = SOURCE_ROOT; };
+		C6859E8B029090EE04C91782 /* textga_conv.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = textga_conv.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB2FDD0D1FA42000A60444 /* libsquish.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* textga_conv */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB2FDE0D1FA42800A60444 /* Library */,
+				C5CB2E210D1F85AF00A60444 /* Framework */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = textga_conv;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C54FA0E80D043E6700A0E7FA /* local */,
+				C5EF383C0D04371E007A3DDB /* Main.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* textga_conv */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C54FA0E80D043E6700A0E7FA /* local */ = {
+			isa = PBXGroup;
+			children = (
+				C54FA0E90D043E6700A0E7FA /* ArgumentData.cpp */,
+				C54FA0EA0D043E6700A0E7FA /* ArgumentData.hpp */,
+				C54FA0EB0D043E6700A0E7FA /* EntryPoint.cpp */,
+				C54FA0EC0D043E6700A0E7FA /* EntryPoint.hpp */,
+				C54FA13D0D0446EF00A0E7FA /* PixelFormat.hpp */,
+				C54FA12A0D0443B300A0E7FA /* Useage.hpp */,
+				C54FA12B0D0443B300A0E7FA /* Useage.cpp */,
+				C54FA1520D04474B00A0E7FA /* PixelFormatUtil.hpp */,
+				C54FA1530D04474B00A0E7FA /* PixelFormatUtil.cpp */,
+				C54FA1AE0D044D1000A0E7FA /* CommandKind.hpp */,
+				C54FA1AF0D045AB100A0E7FA /* ArgumentDataIterator.hpp */,
+				C54FA1B00D045AB100A0E7FA /* ArgumentDataIterator.cpp */,
+				C5CB2AAC0D1E8D2900A60444 /* ConvertRecipe.hpp */,
+				C5CB2AAD0D1E8D2900A60444 /* ConvertRecipe.cpp */,
+				C5CB2AAF0D1E8F4000A60444 /* CommandKindUtil.hpp */,
+				C5CB2AB00D1E8F4000A60444 /* CommandKindUtil.cpp */,
+				C5CB2AB40D1E918C00A60444 /* StringUtil.hpp */,
+				C5CB2AB50D1E918C00A60444 /* StringUtil.cpp */,
+				C5CB2AC30D1E94BD00A60444 /* Convert.hpp */,
+				C5CB2AC40D1E94BD00A60444 /* Convert.cpp */,
+				C5CB2BCF0D1EA13200A60444 /* TGAHeader.hpp */,
+				C5CB2BE30D1EA2F400A60444 /* TGAFileLoader.hpp */,
+				C5CB2BE40D1EA2F400A60444 /* TGAFileLoader.cpp */,
+				C5CB2BEB0D1EA42300A60444 /* File.hpp */,
+				C5CB2BEC0D1EA42300A60444 /* File.cpp */,
+				C5CB2CA40D1EB0F900A60444 /* Pixel.hpp */,
+				C5CB304C0D1FC27600A60444 /* Assert.hpp */,
+				C5CB30AC0D1FD0FC00A60444 /* Endian.hpp */,
+				C5CB30AD0D1FD0FC00A60444 /* Endian.cpp */,
+				C5CB30B30D1FD1D400A60444 /* EndianUtil.hpp */,
+				C5CB30B40D1FD1D400A60444 /* EndianUtil.cpp */,
+			);
+			name = local;
+			path = ../src/local;
+			sourceTree = SOURCE_ROOT;
+		};
+		C5CB2E210D1F85AF00A60444 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		C5CB2FDE0D1FA42800A60444 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB2FDC0D1FA42000A60444 /* libsquish.a */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* textga_conv.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* textga_conv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "textga_conv" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+				C5CB2E550D1F8BBD00A60444 /* フレームワークをコピー */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textga_conv;
+			productInstallPath = "$(HOME)/bin";
+			productName = textga_conv;
+			productReference = 8DD76F6C0486A84900D96B5E /* textga_conv */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "textga_conv" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* textga_conv */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* textga_conv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EF383D0D04371E007A3DDB /* Main.cpp in Sources */,
+				C54FA0ED0D043E6700A0E7FA /* ArgumentData.cpp in Sources */,
+				C54FA0EE0D043E6700A0E7FA /* EntryPoint.cpp in Sources */,
+				C54FA12C0D0443B300A0E7FA /* Useage.cpp in Sources */,
+				C54FA1540D04474B00A0E7FA /* PixelFormatUtil.cpp in Sources */,
+				C54FA1B10D045AB100A0E7FA /* ArgumentDataIterator.cpp in Sources */,
+				C5CB2AAE0D1E8D2900A60444 /* ConvertRecipe.cpp in Sources */,
+				C5CB2AB10D1E8F4000A60444 /* CommandKindUtil.cpp in Sources */,
+				C5CB2AB60D1E918C00A60444 /* StringUtil.cpp in Sources */,
+				C5CB2AC50D1E94BD00A60444 /* Convert.cpp in Sources */,
+				C5CB2BE50D1EA2F400A60444 /* TGAFileLoader.cpp in Sources */,
+				C5CB2BED0D1EA42300A60444 /* File.cpp in Sources */,
+				C5CB30AE0D1FD0FC00A60444 /* Endian.cpp in Sources */,
+				C5CB30B50D1FD1D400A60444 /* EndianUtil.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../lib/MacOSX\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+					"USE_ASSERT=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SQUISH_DIR)/include",
+					"$(PROJECT_DIR)/../src",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SQUISH_DIR)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../lib/MacOSX/squish/i386\"";
+				PRODUCT_NAME = textga_conv;
+				SQUISH_DIR = "$(PROJECT_DIR)/../lib/MacOSX/squish/$(CURRENT_ARCH)";
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../lib/MacOSX\"";
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_UNROLL_LOOPS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SQUISH_DIR)/include",
+					"$(PROJECT_DIR)/../src",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = "$(SQUISH_DIR)";
+				PRODUCT_NAME = textga_conv;
+				SQUISH_DIR = "$(PROJECT_DIR)/../lib/MacOSX/squish/$(CURRENT_ARCH)";
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(ProjectDir)/src";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(ProjectDir)/src";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		C5CB30F00D1FD6AC00A60444 /* Release_ppc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(ProjectDir)/src";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release_ppc;
+		};
+		C5CB30F10D1FD6AC00A60444 /* Release_ppc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../lib/MacOSX\"";
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_UNROLL_LOOPS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SQUISH_DIR)/include",
+					"$(PROJECT_DIR)/../src",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = "$(SQUISH_DIR)";
+				PRODUCT_NAME = textga_conv;
+				SQUISH_DIR = "$(PROJECT_DIR)/../lib/MacOSX/squish/$(CURRENT_ARCH)";
+			};
+			name = Release_ppc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "textga_conv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+				C5CB30F10D1FD6AC00A60444 /* Release_ppc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "textga_conv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+				C5CB30F00D1FD6AC00A60444 /* Release_ppc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

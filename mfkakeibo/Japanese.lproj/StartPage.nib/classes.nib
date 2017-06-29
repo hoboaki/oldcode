@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {createBook = id; openBook = id; openBookFile = id; }; 
+            CLASS = StartPage; 
+            LANGUAGE = Java; 
+            OUTLETS = {
+                myNewAccountMoney = NSTextField; 
+                myNewAccountTitle = NSTextField; 
+                myNewBookTitle = NSTextField; 
+                myNewDefaultCategoryButton = NSButton; 
+                myPanel = NSPanel; 
+                myTab = NSTabView; 
+            }; 
+            SUPERCLASS = "java.lang.Object"; 
+        }
+    ); 
+    IBVersion = 1; 
+}

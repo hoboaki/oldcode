@@ -1,0 +1,12 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = SheetPopup; 
+            LANGUAGE = Java; 
+            OUTLETS = {myPopup = NSPopUpButton; }; 
+            SUPERCLASS = "java.lang.Object"; 
+        }
+    ); 
+    IBVersion = 1; 
+}

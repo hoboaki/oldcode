@@ -1,0 +1,55 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                add = id; 
+                addCategory = id; 
+                apply = id; 
+                close = id; 
+                deleteCategory = id; 
+                moveCategory = id; 
+                renameCategory = id; 
+                reset = id; 
+                setDateToToday = id; 
+            }; 
+            CLASS = DataEditPanel; 
+            LANGUAGE = Java; 
+            OUTLETS = {
+                myAccountPopup = NSPopUpButton; 
+                myCategoryBrowser = NSBrowser; 
+                myCommentText = NSTextView; 
+                myDateCalender = NSDatePicker; 
+                myDateText = NSDatePicker; 
+                myPanel = NSPanel; 
+                myPriceSwitch = NSButton; 
+                myPriceText = NSTextField; 
+                myTitleAsCategorySwitch = NSButton; 
+                myTitleText = NSTextField; 
+            }; 
+            SUPERCLASS = "java.lang.Object"; 
+        }, 
+        {
+            CLASS = DrawerController; 
+            LANGUAGE = Java; 
+            OUTLETS = {myDrawer = NSDrawer; }; 
+            SUPERCLASS = "java.lang.Object"; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = KCView; LANGUAGE = Java; SUPERCLASS = NSView; }, 
+        {
+            CLASS = MainWindow; 
+            LANGUAGE = Java; 
+            OUTLETS = {
+                myDetailTableView = NSTableView; 
+                myDrawerController = id; 
+                myDrawerNewForm = id; 
+                myMessageTextView = NSTextField; 
+                myStatusTextView = NSTextField; 
+                myWindow = NSWindow; 
+            }; 
+            SUPERCLASS = "java.lang.Object"; 
+        }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

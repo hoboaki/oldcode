@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C51E02B70D278B410091EB62 /* CFunctionAlias.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C51E02B60D278B410091EB62 /* CFunctionAlias.hpp */; };
+		C51E02B80D278B410091EB62 /* CFunctionAlias.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C51E02B60D278B410091EB62 /* CFunctionAlias.hpp */; };
+		C51E02B90D278B410091EB62 /* CFunctionAlias.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C51E02B60D278B410091EB62 /* CFunctionAlias.hpp */; };
+		C51E02BB0D278B930091EB62 /* Compiler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C51E02BA0D278B930091EB62 /* Compiler.hpp */; };
+		C51E02BC0D278B930091EB62 /* Compiler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C51E02BA0D278B930091EB62 /* Compiler.hpp */; };
+		C51E02BD0D278B930091EB62 /* Compiler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C51E02BA0D278B930091EB62 /* Compiler.hpp */; };
+		C54E4B140D26BFF000840785 /* Constant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4ABE0D26BEB300840785 /* Constant.cpp */; };
+		C54E4B150D26BFF000840785 /* Endian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4ABF0D26BEB300840785 /* Endian.cpp */; };
+		C54E4B160D26BFF000840785 /* EndianUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC00D26BEB300840785 /* EndianUtil.cpp */; };
+		C54E4B170D26BFF000840785 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC10D26BEB300840785 /* File.cpp */; };
+		C54E4B180D26BFF000840785 /* FileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC20D26BEB300840785 /* FileLoader.cpp */; };
+		C54E4B190D26BFF000840785 /* PixelFormatUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC30D26BEB300840785 /* PixelFormatUtil.cpp */; };
+		C54E4B1A0D26BFF000840785 /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC40D26BEB300840785 /* StringUtil.cpp */; };
+		C54E4B1B0D26BFF000840785 /* TGADataAccessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC50D26BEB300840785 /* TGADataAccessor.cpp */; };
+		C54E4B1C0D26BFF000840785 /* TGAFileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC60D26BEB300840785 /* TGAFileLoader.cpp */; };
+		C54E4B1D0D26BFF000840785 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC70D26BEB300840785 /* Version.cpp */; };
+		C54E4B1E0D26BFF600840785 /* Assert.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD20D26BEBE00840785 /* Assert.hpp */; };
+		C54E4B1F0D26BFF600840785 /* Constant.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD30D26BEBE00840785 /* Constant.hpp */; };
+		C54E4B200D26BFF600840785 /* Endian.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD40D26BEBE00840785 /* Endian.hpp */; };
+		C54E4B210D26BFF600840785 /* EndianUtil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD50D26BEBE00840785 /* EndianUtil.hpp */; };
+		C54E4B220D26BFF600840785 /* File.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD60D26BEBE00840785 /* File.hpp */; };
+		C54E4B230D26BFF600840785 /* FileLoader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD70D26BEBE00840785 /* FileLoader.hpp */; };
+		C54E4B240D26BFF600840785 /* Pixel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD80D26BEBE00840785 /* Pixel.hpp */; };
+		C54E4B250D26BFF600840785 /* PixelFormat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD90D26BEBE00840785 /* PixelFormat.hpp */; };
+		C54E4B260D26BFF600840785 /* PixelFormatUtil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADA0D26BEBE00840785 /* PixelFormatUtil.hpp */; };
+		C54E4B270D26BFF600840785 /* StringUtil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADB0D26BEBE00840785 /* StringUtil.hpp */; };
+		C54E4B280D26BFF600840785 /* TGADataAccessor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADC0D26BEBE00840785 /* TGADataAccessor.hpp */; };
+		C54E4B290D26BFF600840785 /* TGAFileLoader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADD0D26BEBE00840785 /* TGAFileLoader.hpp */; };
+		C54E4B2A0D26BFF600840785 /* TGAHeader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADE0D26BEBE00840785 /* TGAHeader.hpp */; };
+		C54E4B2B0D26BFF600840785 /* Types.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADF0D26BEBE00840785 /* Types.hpp */; };
+		C54E4B2C0D26BFF600840785 /* Version.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AE00D26BEBE00840785 /* Version.hpp */; };
+		C54E4BB10D26C63B00840785 /* Assert.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD20D26BEBE00840785 /* Assert.hpp */; };
+		C54E4BB20D26C63B00840785 /* Constant.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD30D26BEBE00840785 /* Constant.hpp */; };
+		C54E4BB30D26C63B00840785 /* Endian.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD40D26BEBE00840785 /* Endian.hpp */; };
+		C54E4BB40D26C63B00840785 /* EndianUtil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD50D26BEBE00840785 /* EndianUtil.hpp */; };
+		C54E4BB50D26C63B00840785 /* File.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD60D26BEBE00840785 /* File.hpp */; };
+		C54E4BB60D26C63B00840785 /* FileLoader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD70D26BEBE00840785 /* FileLoader.hpp */; };
+		C54E4BB70D26C63B00840785 /* Pixel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD80D26BEBE00840785 /* Pixel.hpp */; };
+		C54E4BB80D26C63B00840785 /* PixelFormat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD90D26BEBE00840785 /* PixelFormat.hpp */; };
+		C54E4BB90D26C63B00840785 /* PixelFormatUtil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADA0D26BEBE00840785 /* PixelFormatUtil.hpp */; };
+		C54E4BBA0D26C63B00840785 /* StringUtil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADB0D26BEBE00840785 /* StringUtil.hpp */; };
+		C54E4BBB0D26C63B00840785 /* TGADataAccessor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADC0D26BEBE00840785 /* TGADataAccessor.hpp */; };
+		C54E4BBC0D26C63B00840785 /* TGAFileLoader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADD0D26BEBE00840785 /* TGAFileLoader.hpp */; };
+		C54E4BBD0D26C63B00840785 /* TGAHeader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADE0D26BEBE00840785 /* TGAHeader.hpp */; };
+		C54E4BBE0D26C63B00840785 /* Types.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADF0D26BEBE00840785 /* Types.hpp */; };
+		C54E4BBF0D26C63B00840785 /* Version.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AE00D26BEBE00840785 /* Version.hpp */; };
+		C54E4BC00D26C64100840785 /* Constant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4ABE0D26BEB300840785 /* Constant.cpp */; };
+		C54E4BC10D26C64100840785 /* Endian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4ABF0D26BEB300840785 /* Endian.cpp */; };
+		C54E4BC20D26C64100840785 /* EndianUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC00D26BEB300840785 /* EndianUtil.cpp */; };
+		C54E4BC30D26C64100840785 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC10D26BEB300840785 /* File.cpp */; };
+		C54E4BC40D26C64100840785 /* FileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC20D26BEB300840785 /* FileLoader.cpp */; };
+		C54E4BC50D26C64100840785 /* PixelFormatUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC30D26BEB300840785 /* PixelFormatUtil.cpp */; };
+		C54E4BC60D26C64100840785 /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC40D26BEB300840785 /* StringUtil.cpp */; };
+		C54E4BC70D26C64100840785 /* TGADataAccessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC50D26BEB300840785 /* TGADataAccessor.cpp */; };
+		C54E4BC80D26C64100840785 /* TGAFileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC60D26BEB300840785 /* TGAFileLoader.cpp */; };
+		C54E4BC90D26C64100840785 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC70D26BEB300840785 /* Version.cpp */; };
+		C54E4BDB0D26C82700840785 /* textga.h in Headers */ = {isa = PBXBuildFile; fileRef = C54E4BDA0D26C82700840785 /* textga.h */; };
+		C54E4BDD0D26C82700840785 /* textga.h in Headers */ = {isa = PBXBuildFile; fileRef = C54E4BDA0D26C82700840785 /* textga.h */; };
+		C56B89B80D277F9600EABB3C /* Assert.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD20D26BEBE00840785 /* Assert.hpp */; };
+		C56B89B90D277F9600EABB3C /* Constant.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD30D26BEBE00840785 /* Constant.hpp */; };
+		C56B89BA0D277F9600EABB3C /* Endian.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD40D26BEBE00840785 /* Endian.hpp */; };
+		C56B89BB0D277F9600EABB3C /* EndianUtil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD50D26BEBE00840785 /* EndianUtil.hpp */; };
+		C56B89BC0D277F9600EABB3C /* File.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD60D26BEBE00840785 /* File.hpp */; };
+		C56B89BD0D277F9600EABB3C /* FileLoader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD70D26BEBE00840785 /* FileLoader.hpp */; };
+		C56B89BE0D277F9600EABB3C /* Pixel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD80D26BEBE00840785 /* Pixel.hpp */; };
+		C56B89BF0D277F9600EABB3C /* PixelFormat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AD90D26BEBE00840785 /* PixelFormat.hpp */; };
+		C56B89C00D277F9600EABB3C /* PixelFormatUtil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADA0D26BEBE00840785 /* PixelFormatUtil.hpp */; };
+		C56B89C10D277F9600EABB3C /* StringUtil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADB0D26BEBE00840785 /* StringUtil.hpp */; };
+		C56B89C20D277F9600EABB3C /* TGADataAccessor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADC0D26BEBE00840785 /* TGADataAccessor.hpp */; };
+		C56B89C30D277F9600EABB3C /* TGAFileLoader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADD0D26BEBE00840785 /* TGAFileLoader.hpp */; };
+		C56B89C40D277F9600EABB3C /* TGAHeader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADE0D26BEBE00840785 /* TGAHeader.hpp */; };
+		C56B89C50D277F9600EABB3C /* Types.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4ADF0D26BEBE00840785 /* Types.hpp */; };
+		C56B89C60D277F9600EABB3C /* Version.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C54E4AE00D26BEBE00840785 /* Version.hpp */; };
+		C56B89C70D277F9600EABB3C /* textga.h in Headers */ = {isa = PBXBuildFile; fileRef = C54E4BDA0D26C82700840785 /* textga.h */; };
+		C56B89C90D277F9600EABB3C /* Constant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4ABE0D26BEB300840785 /* Constant.cpp */; };
+		C56B89CA0D277F9600EABB3C /* Endian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4ABF0D26BEB300840785 /* Endian.cpp */; };
+		C56B89CB0D277F9600EABB3C /* EndianUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC00D26BEB300840785 /* EndianUtil.cpp */; };
+		C56B89CC0D277F9600EABB3C /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC10D26BEB300840785 /* File.cpp */; };
+		C56B89CD0D277F9600EABB3C /* FileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC20D26BEB300840785 /* FileLoader.cpp */; };
+		C56B89CE0D277F9600EABB3C /* PixelFormatUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC30D26BEB300840785 /* PixelFormatUtil.cpp */; };
+		C56B89CF0D277F9600EABB3C /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC40D26BEB300840785 /* StringUtil.cpp */; };
+		C56B89D00D277F9600EABB3C /* TGADataAccessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC50D26BEB300840785 /* TGADataAccessor.cpp */; };
+		C56B89D10D277F9600EABB3C /* TGAFileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC60D26BEB300840785 /* TGAFileLoader.cpp */; };
+		C56B89D20D277F9600EABB3C /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54E4AC70D26BEB300840785 /* Version.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C51E02B60D278B410091EB62 /* CFunctionAlias.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = CFunctionAlias.hpp; sourceTree = "<group>"; };
+		C51E02BA0D278B930091EB62 /* Compiler.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; path = Compiler.hpp; sourceTree = "<group>"; };
+		C54E4ABE0D26BEB300840785 /* Constant.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = Constant.cpp; path = ../src/Constant.cpp; sourceTree = SOURCE_ROOT; };
+		C54E4ABF0D26BEB300840785 /* Endian.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = Endian.cpp; path = ../src/Endian.cpp; sourceTree = SOURCE_ROOT; };
+		C54E4AC00D26BEB300840785 /* EndianUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = EndianUtil.cpp; path = ../src/EndianUtil.cpp; sourceTree = SOURCE_ROOT; };
+		C54E4AC10D26BEB300840785 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = File.cpp; path = ../src/File.cpp; sourceTree = SOURCE_ROOT; };
+		C54E4AC20D26BEB300840785 /* FileLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = FileLoader.cpp; path = ../src/FileLoader.cpp; sourceTree = SOURCE_ROOT; };
+		C54E4AC30D26BEB300840785 /* PixelFormatUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = PixelFormatUtil.cpp; path = ../src/PixelFormatUtil.cpp; sourceTree = SOURCE_ROOT; };
+		C54E4AC40D26BEB300840785 /* StringUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = StringUtil.cpp; path = ../src/StringUtil.cpp; sourceTree = SOURCE_ROOT; };
+		C54E4AC50D26BEB300840785 /* TGADataAccessor.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = TGADataAccessor.cpp; path = ../src/TGADataAccessor.cpp; sourceTree = SOURCE_ROOT; };
+		C54E4AC60D26BEB300840785 /* TGAFileLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = TGAFileLoader.cpp; path = ../src/TGAFileLoader.cpp; sourceTree = SOURCE_ROOT; };
+		C54E4AC70D26BEB300840785 /* Version.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; name = Version.cpp; path = ../src/Version.cpp; sourceTree = SOURCE_ROOT; };
+		C54E4AD20D26BEBE00840785 /* Assert.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = Assert.hpp; path = ../include/textga/Assert.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4AD30D26BEBE00840785 /* Constant.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = Constant.hpp; path = ../include/textga/Constant.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4AD40D26BEBE00840785 /* Endian.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = Endian.hpp; path = ../include/textga/Endian.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4AD50D26BEBE00840785 /* EndianUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = EndianUtil.hpp; path = ../include/textga/EndianUtil.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4AD60D26BEBE00840785 /* File.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = File.hpp; path = ../include/textga/File.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4AD70D26BEBE00840785 /* FileLoader.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = FileLoader.hpp; path = ../include/textga/FileLoader.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4AD80D26BEBE00840785 /* Pixel.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = Pixel.hpp; path = ../include/textga/Pixel.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4AD90D26BEBE00840785 /* PixelFormat.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = PixelFormat.hpp; path = ../include/textga/PixelFormat.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4ADA0D26BEBE00840785 /* PixelFormatUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = PixelFormatUtil.hpp; path = ../include/textga/PixelFormatUtil.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4ADB0D26BEBE00840785 /* StringUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = StringUtil.hpp; path = ../include/textga/StringUtil.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4ADC0D26BEBE00840785 /* TGADataAccessor.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = TGADataAccessor.hpp; path = ../include/textga/TGADataAccessor.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4ADD0D26BEBE00840785 /* TGAFileLoader.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = TGAFileLoader.hpp; path = ../include/textga/TGAFileLoader.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4ADE0D26BEBE00840785 /* TGAHeader.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = TGAHeader.hpp; path = ../include/textga/TGAHeader.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4ADF0D26BEBE00840785 /* Types.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = Types.hpp; path = ../include/textga/Types.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4AE00D26BEBE00840785 /* Version.hpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.h; name = Version.hpp; path = ../include/textga/Version.hpp; sourceTree = SOURCE_ROOT; };
+		C54E4B100D26BF6000840785 /* libtextga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtextga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54E4BA90D26C5EB00840785 /* libtextga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libtextga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54E4BAA0D26C5EB00840785 /* libtextga-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libtextga-Info.plist"; sourceTree = "<group>"; };
+		C54E4BDA0D26C82700840785 /* textga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = textga.h; path = ../include/textga/textga.h; sourceTree = SOURCE_ROOT; };
+		C56B89D80D277F9600EABB3C /* libtextga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtextga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C54E4B0E0D26BF6000840785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54E4BA70D26C5EB00840785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56B89D30D277F9600EABB3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C54E4A9A0D26BDF100840785 = {
+			isa = PBXGroup;
+			children = (
+				C54E4ABA0D26BE9300840785 /* Headers */,
+				C54E4AB90D26BE8A00840785 /* Srcs */,
+				C54E4AB40D26BE8100840785 /* Products */,
+				C54E4BAA0D26C5EB00840785 /* libtextga-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		C54E4AB40D26BE8100840785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C54E4B100D26BF6000840785 /* libtextga.a */,
+				C54E4BA90D26C5EB00840785 /* libtextga.framework */,
+				C56B89D80D277F9600EABB3C /* libtextga.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C54E4AB90D26BE8A00840785 /* Srcs */ = {
+			isa = PBXGroup;
+			children = (
+				C54E4ABE0D26BEB300840785 /* Constant.cpp */,
+				C54E4ABF0D26BEB300840785 /* Endian.cpp */,
+				C54E4AC00D26BEB300840785 /* EndianUtil.cpp */,
+				C54E4AC10D26BEB300840785 /* File.cpp */,
+				C54E4AC20D26BEB300840785 /* FileLoader.cpp */,
+				C54E4AC30D26BEB300840785 /* PixelFormatUtil.cpp */,
+				C54E4AC40D26BEB300840785 /* StringUtil.cpp */,
+				C54E4AC50D26BEB300840785 /* TGADataAccessor.cpp */,
+				C54E4AC60D26BEB300840785 /* TGAFileLoader.cpp */,
+				C54E4AC70D26BEB300840785 /* Version.cpp */,
+			);
+			name = Srcs;
+			sourceTree = "<group>";
+		};
+		C54E4ABA0D26BE9300840785 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C54E4AD20D26BEBE00840785 /* Assert.hpp */,
+				C54E4AD30D26BEBE00840785 /* Constant.hpp */,
+				C54E4AD40D26BEBE00840785 /* Endian.hpp */,
+				C54E4AD50D26BEBE00840785 /* EndianUtil.hpp */,
+				C54E4AD60D26BEBE00840785 /* File.hpp */,
+				C54E4AD70D26BEBE00840785 /* FileLoader.hpp */,
+				C54E4AD80D26BEBE00840785 /* Pixel.hpp */,
+				C54E4AD90D26BEBE00840785 /* PixelFormat.hpp */,
+				C54E4ADA0D26BEBE00840785 /* PixelFormatUtil.hpp */,
+				C54E4ADB0D26BEBE00840785 /* StringUtil.hpp */,
+				C54E4ADC0D26BEBE00840785 /* TGADataAccessor.hpp */,
+				C54E4ADD0D26BEBE00840785 /* TGAFileLoader.hpp */,
+				C54E4ADE0D26BEBE00840785 /* TGAHeader.hpp */,
+				C54E4ADF0D26BEBE00840785 /* Types.hpp */,
+				C54E4AE00D26BEBE00840785 /* Version.hpp */,
+				C54E4BDA0D26C82700840785 /* textga.h */,
+				C51E02B60D278B410091EB62 /* CFunctionAlias.hpp */,
+				C51E02BA0D278B930091EB62 /* Compiler.hpp */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C54E4B0C0D26BF6000840785 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54E4B1E0D26BFF600840785 /* Assert.hpp in Headers */,
+				C54E4B1F0D26BFF600840785 /* Constant.hpp in Headers */,
+				C54E4B200D26BFF600840785 /* Endian.hpp in Headers */,
+				C54E4B210D26BFF600840785 /* EndianUtil.hpp in Headers */,
+				C54E4B220D26BFF600840785 /* File.hpp in Headers */,
+				C54E4B230D26BFF600840785 /* FileLoader.hpp in Headers */,
+				C54E4B240D26BFF600840785 /* Pixel.hpp in Headers */,
+				C54E4B250D26BFF600840785 /* PixelFormat.hpp in Headers */,
+				C54E4B260D26BFF600840785 /* PixelFormatUtil.hpp in Headers */,
+				C54E4B270D26BFF600840785 /* StringUtil.hpp in Headers */,
+				C54E4B280D26BFF600840785 /* TGADataAccessor.hpp in Headers */,
+				C54E4B290D26BFF600840785 /* TGAFileLoader.hpp in Headers */,
+				C54E4B2A0D26BFF600840785 /* TGAHeader.hpp in Headers */,
+				C54E4B2B0D26BFF600840785 /* Types.hpp in Headers */,
+				C54E4B2C0D26BFF600840785 /* Version.hpp in Headers */,
+				C54E4BDB0D26C82700840785 /* textga.h in Headers */,
+				C51E02B80D278B410091EB62 /* CFunctionAlias.hpp in Headers */,
+				C51E02BB0D278B930091EB62 /* Compiler.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54E4BA40D26C5EB00840785 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54E4BB10D26C63B00840785 /* Assert.hpp in Headers */,
+				C54E4BB20D26C63B00840785 /* Constant.hpp in Headers */,
+				C54E4BB30D26C63B00840785 /* Endian.hpp in Headers */,
+				C54E4BB40D26C63B00840785 /* EndianUtil.hpp in Headers */,
+				C54E4BB50D26C63B00840785 /* File.hpp in Headers */,
+				C54E4BB60D26C63B00840785 /* FileLoader.hpp in Headers */,
+				C54E4BB70D26C63B00840785 /* Pixel.hpp in Headers */,
+				C54E4BB80D26C63B00840785 /* PixelFormat.hpp in Headers */,
+				C54E4BB90D26C63B00840785 /* PixelFormatUtil.hpp in Headers */,
+				C54E4BBA0D26C63B00840785 /* StringUtil.hpp in Headers */,
+				C54E4BBB0D26C63B00840785 /* TGADataAccessor.hpp in Headers */,
+				C54E4BBC0D26C63B00840785 /* TGAFileLoader.hpp in Headers */,
+				C54E4BBD0D26C63B00840785 /* TGAHeader.hpp in Headers */,
+				C54E4BBE0D26C63B00840785 /* Types.hpp in Headers */,
+				C54E4BBF0D26C63B00840785 /* Version.hpp in Headers */,
+				C54E4BDD0D26C82700840785 /* textga.h in Headers */,
+				C51E02B90D278B410091EB62 /* CFunctionAlias.hpp in Headers */,
+				C51E02BC0D278B930091EB62 /* Compiler.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56B89B70D277F9600EABB3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56B89B80D277F9600EABB3C /* Assert.hpp in Headers */,
+				C56B89B90D277F9600EABB3C /* Constant.hpp in Headers */,
+				C56B89BA0D277F9600EABB3C /* Endian.hpp in Headers */,
+				C56B89BB0D277F9600EABB3C /* EndianUtil.hpp in Headers */,
+				C56B89BC0D277F9600EABB3C /* File.hpp in Headers */,
+				C56B89BD0D277F9600EABB3C /* FileLoader.hpp in Headers */,
+				C56B89BE0D277F9600EABB3C /* Pixel.hpp in Headers */,
+				C56B89BF0D277F9600EABB3C /* PixelFormat.hpp in Headers */,
+				C56B89C00D277F9600EABB3C /* PixelFormatUtil.hpp in Headers */,
+				C56B89C10D277F9600EABB3C /* StringUtil.hpp in Headers */,
+				C56B89C20D277F9600EABB3C /* TGADataAccessor.hpp in Headers */,
+				C56B89C30D277F9600EABB3C /* TGAFileLoader.hpp in Headers */,
+				C56B89C40D277F9600EABB3C /* TGAHeader.hpp in Headers */,
+				C56B89C50D277F9600EABB3C /* Types.hpp in Headers */,
+				C56B89C60D277F9600EABB3C /* Version.hpp in Headers */,
+				C56B89C70D277F9600EABB3C /* textga.h in Headers */,
+				C51E02B70D278B410091EB62 /* CFunctionAlias.hpp in Headers */,
+				C51E02BD0D278B930091EB62 /* Compiler.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C54E4B0F0D26BF6000840785 /* libtextga_ppc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54E4B130D26BF7F00840785 /* Build configuration list for PBXNativeTarget "libtextga_ppc" */;
+			buildPhases = (
+				C54E4B0C0D26BF6000840785 /* Headers */,
+				C54E4B0D0D26BF6000840785 /* Sources */,
+				C54E4B0E0D26BF6000840785 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libtextga_ppc;
+			productName = textga_cpplib_ppc;
+			productReference = C54E4B100D26BF6000840785 /* libtextga.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C54E4BA80D26C5EB00840785 /* libtextga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54E4BAE0D26C5EC00840785 /* Build configuration list for PBXNativeTarget "libtextga" */;
+			buildPhases = (
+				C54E4BA40D26C5EB00840785 /* Headers */,
+				C54E4BA50D26C5EB00840785 /* Resources */,
+				C54E4BA60D26C5EB00840785 /* Sources */,
+				C54E4BA70D26C5EB00840785 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libtextga;
+			productName = libtextga;
+			productReference = C54E4BA90D26C5EB00840785 /* libtextga.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C56B89B60D277F9600EABB3C /* libtextga_i386 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56B89D40D277F9600EABB3C /* Build configuration list for PBXNativeTarget "libtextga_i386" */;
+			buildPhases = (
+				C56B89B70D277F9600EABB3C /* Headers */,
+				C56B89C80D277F9600EABB3C /* Sources */,
+				C56B89D30D277F9600EABB3C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libtextga_i386;
+			productName = textga_cpplib_ppc;
+			productReference = C56B89D80D277F9600EABB3C /* libtextga.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C54E4A9C0D26BDF100840785 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C54E4A9F0D26BDF100840785 /* Build configuration list for PBXProject "textga_cpplib" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = C54E4A9A0D26BDF100840785;
+			productRefGroup = C54E4AB40D26BE8100840785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C54E4B0F0D26BF6000840785 /* libtextga_ppc */,
+				C56B89B60D277F9600EABB3C /* libtextga_i386 */,
+				C54E4BA80D26C5EB00840785 /* libtextga */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C54E4BA50D26C5EB00840785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C54E4B0D0D26BF6000840785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54E4B140D26BFF000840785 /* Constant.cpp in Sources */,
+				C54E4B150D26BFF000840785 /* Endian.cpp in Sources */,
+				C54E4B160D26BFF000840785 /* EndianUtil.cpp in Sources */,
+				C54E4B170D26BFF000840785 /* File.cpp in Sources */,
+				C54E4B180D26BFF000840785 /* FileLoader.cpp in Sources */,
+				C54E4B190D26BFF000840785 /* PixelFormatUtil.cpp in Sources */,
+				C54E4B1A0D26BFF000840785 /* StringUtil.cpp in Sources */,
+				C54E4B1B0D26BFF000840785 /* TGADataAccessor.cpp in Sources */,
+				C54E4B1C0D26BFF000840785 /* TGAFileLoader.cpp in Sources */,
+				C54E4B1D0D26BFF000840785 /* Version.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54E4BA60D26C5EB00840785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54E4BC00D26C64100840785 /* Constant.cpp in Sources */,
+				C54E4BC10D26C64100840785 /* Endian.cpp in Sources */,
+				C54E4BC20D26C64100840785 /* EndianUtil.cpp in Sources */,
+				C54E4BC30D26C64100840785 /* File.cpp in Sources */,
+				C54E4BC40D26C64100840785 /* FileLoader.cpp in Sources */,
+				C54E4BC50D26C64100840785 /* PixelFormatUtil.cpp in Sources */,
+				C54E4BC60D26C64100840785 /* StringUtil.cpp in Sources */,
+				C54E4BC70D26C64100840785 /* TGADataAccessor.cpp in Sources */,
+				C54E4BC80D26C64100840785 /* TGAFileLoader.cpp in Sources */,
+				C54E4BC90D26C64100840785 /* Version.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56B89C80D277F9600EABB3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56B89C90D277F9600EABB3C /* Constant.cpp in Sources */,
+				C56B89CA0D277F9600EABB3C /* Endian.cpp in Sources */,
+				C56B89CB0D277F9600EABB3C /* EndianUtil.cpp in Sources */,
+				C56B89CC0D277F9600EABB3C /* File.cpp in Sources */,
+				C56B89CD0D277F9600EABB3C /* FileLoader.cpp in Sources */,
+				C56B89CE0D277F9600EABB3C /* PixelFormatUtil.cpp in Sources */,
+				C56B89CF0D277F9600EABB3C /* StringUtil.cpp in Sources */,
+				C56B89D00D277F9600EABB3C /* TGADataAccessor.cpp in Sources */,
+				C56B89D10D277F9600EABB3C /* TGAFileLoader.cpp in Sources */,
+				C56B89D20D277F9600EABB3C /* Version.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C54E4A9D0D26BDF100840785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(TARGET_ARCH)";
+				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../include";
+				LIBRARY_SEARCH_PATHS = "";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				TARGET_ARCH = ppc;
+			};
+			name = Debug;
+		};
+		C54E4A9E0D26BDF100840785 /* Develop */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(TARGET_ARCH)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "TEXTGA_USE_ASSERT=1";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../include";
+				LIBRARY_SEARCH_PATHS = "";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				TARGET_ARCH = ppc;
+			};
+			name = Develop;
+		};
+		C54E4B110D26BF6100840785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(TARGET_ARCH)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/$(CURRENT_ARCH)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+					"TEXTGA_USE_ASSERT=1",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PREBINDING = NO;
+				PRODUCT_NAME = textga;
+				TARGET_ARCH = ppc;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C54E4B120D26BF6100840785 /* Develop */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(TARGET_ARCH)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/$(CURRENT_ARCH)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PREBINDING = NO;
+				PRODUCT_NAME = textga;
+				TARGET_ARCH = ppc;
+				ZERO_LINK = NO;
+			};
+			name = Develop;
+		};
+		C54E4B340D26C03200840785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(TARGET_ARCH)";
+				COPY_PHASE_STRIP = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../include";
+				LIBRARY_SEARCH_PATHS = "";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				TARGET_ARCH = ppc;
+			};
+			name = Release;
+		};
+		C54E4B350D26C03200840785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(TARGET_ARCH)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/$(CURRENT_ARCH)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PREBINDING = NO;
+				PRODUCT_NAME = textga;
+				TARGET_ARCH = ppc;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C54E4BAB0D26C5EB00840785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "libtextga-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../ext_lib/squish/MacOSX/i386\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = libtextga;
+				TARGET_ARCH = "i386 ppc";
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C54E4BAC0D26C5EB00840785 /* Develop */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "libtextga-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../ext_lib/squish/MacOSX/i386\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = libtextga;
+				TARGET_ARCH = "i386 ppc";
+				ZERO_LINK = YES;
+			};
+			name = Develop;
+		};
+		C54E4BAD0D26C5EB00840785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "libtextga-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../ext_lib/squish/MacOSX/i386\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = libtextga;
+				TARGET_ARCH = "i386 ppc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C56B89D50D277F9600EABB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(TARGET_ARCH)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/$(CURRENT_ARCH)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+					"TEXTGA_USE_ASSERT=1",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PREBINDING = NO;
+				PRODUCT_NAME = textga;
+				TARGET_ARCH = i386;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C56B89D60D277F9600EABB3C /* Develop */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(TARGET_ARCH)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/$(CURRENT_ARCH)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PREBINDING = NO;
+				PRODUCT_NAME = textga;
+				TARGET_ARCH = i386;
+				ZERO_LINK = NO;
+			};
+			name = Develop;
+		};
+		C56B89D70D277F9600EABB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(TARGET_ARCH)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/$(CURRENT_ARCH)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PREBINDING = NO;
+				PRODUCT_NAME = textga;
+				TARGET_ARCH = i386;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C54E4A9F0D26BDF100840785 /* Build configuration list for PBXProject "textga_cpplib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54E4A9D0D26BDF100840785 /* Debug */,
+				C54E4A9E0D26BDF100840785 /* Develop */,
+				C54E4B340D26C03200840785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Develop;
+		};
+		C54E4B130D26BF7F00840785 /* Build configuration list for PBXNativeTarget "libtextga_ppc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54E4B110D26BF6100840785 /* Debug */,
+				C54E4B120D26BF6100840785 /* Develop */,
+				C54E4B350D26C03200840785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Develop;
+		};
+		C54E4BAE0D26C5EC00840785 /* Build configuration list for PBXNativeTarget "libtextga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54E4BAB0D26C5EB00840785 /* Debug */,
+				C54E4BAC0D26C5EB00840785 /* Develop */,
+				C54E4BAD0D26C5EB00840785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Develop;
+		};
+		C56B89D40D277F9600EABB3C /* Build configuration list for PBXNativeTarget "libtextga_i386" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56B89D50D277F9600EABB3C /* Debug */,
+				C56B89D60D277F9600EABB3C /* Develop */,
+				C56B89D70D277F9600EABB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Develop;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C54E4A9C0D26BDF100840785 /* Project object */;
+}

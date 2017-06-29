@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "textga_static", "textga_static.vcproj", "{BD7F3F04-5D93-430C-8862-E0F13C5D5136}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "textga_dynamic", "textga_dynamic.vcproj", "{16804BD5-61C8-4D8B-845A-F49F534A70C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Develop|Win32 = Develop|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136}.Debug|Win32.Build.0 = Debug|Win32
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136}.Develop|Win32.ActiveCfg = Develop|Win32
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136}.Develop|Win32.Build.0 = Develop|Win32
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136}.Release|Win32.ActiveCfg = Release|Win32
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136}.Release|Win32.Build.0 = Release|Win32
+		{16804BD5-61C8-4D8B-845A-F49F534A70C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{16804BD5-61C8-4D8B-845A-F49F534A70C9}.Debug|Win32.Build.0 = Debug|Win32
+		{16804BD5-61C8-4D8B-845A-F49F534A70C9}.Develop|Win32.ActiveCfg = Develop|Win32
+		{16804BD5-61C8-4D8B-845A-F49F534A70C9}.Develop|Win32.Build.0 = Develop|Win32
+		{16804BD5-61C8-4D8B-845A-F49F534A70C9}.Release|Win32.ActiveCfg = Release|Win32
+		{16804BD5-61C8-4D8B-845A-F49F534A70C9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

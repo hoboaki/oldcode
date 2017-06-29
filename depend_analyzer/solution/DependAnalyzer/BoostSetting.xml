@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<depend_analyzer_setting>
+  <target_dirs>
+    <dir>C:/users/akiharu/projects/gamesln/GameProject/lib/boost</dir>
+  </target_dirs>
+  <include_dirs>
+    <dir>C:/users/akiharu/projects/gamesln/GameProject/lib/Win32/PlatformSDK/include</dir>
+    <dir>C:/users/akiharu/projects/gamesln/GameProject/lib/GLEW/include</dir>
+    <dir>C:/users/akiharu/projects/gamesln/GameProject/lib/libvorbis/include</dir>
+    <dir>C:/users/akiharu/projects/gamesln/GameProject/lib/libogg/include</dir>
+    <dir>C:/users/akiharu/projects/gamesln/GameProject/src</dir>
+    <dir>C:/users/akiharu/projects/gamesln/GameProject/lib/Win32/OpenAL/include</dir>
+    <dir>C:/users/akiharu/projects/gamesln/GameProject/lib/Win32/SDL/include</dir>
+    <dir>C:/users/akiharu/projects/gamesln/GameProject/lib/boost</dir>
+    <dir>C:/users/akiharu/projects/gamesln/GameProject/lib/zthread/include</dir>
+    <dir>C:/users/akiharu/projects/gamesln/GameProject/lib/glpic_ext/glpic/include</dir>
+    <dir>C:/users/akiharu/projects/gamesln/GameProject/lib/Win32/GLUT/include</dir>
+  </include_dirs>
+  <source_extensions>
+    <extension>.c</extension>
+    <extension>.cpp</extension>
+  </source_extensions>
+  <header_extensions>
+    <extension>.h</extension>
+    <extension>.hpp</extension>
+  </header_extensions>
+</depend_analyzer_setting>

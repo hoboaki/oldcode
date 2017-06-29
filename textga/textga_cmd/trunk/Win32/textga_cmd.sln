@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "textga_conv", "textga_cmd.vcproj", "{803BF59D-B587-4701-A2E0-C6F21EACED3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136} = {BD7F3F04-5D93-430C-8862-E0F13C5D5136}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "textga_static", "..\lib\textga_cpplib\Win32\textga_static.vcproj", "{BD7F3F04-5D93-430C-8862-E0F13C5D5136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Develop|Win32 = Develop|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{803BF59D-B587-4701-A2E0-C6F21EACED3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{803BF59D-B587-4701-A2E0-C6F21EACED3F}.Debug|Win32.Build.0 = Debug|Win32
+		{803BF59D-B587-4701-A2E0-C6F21EACED3F}.Develop|Win32.ActiveCfg = Develop|Win32
+		{803BF59D-B587-4701-A2E0-C6F21EACED3F}.Develop|Win32.Build.0 = Develop|Win32
+		{803BF59D-B587-4701-A2E0-C6F21EACED3F}.Release|Win32.ActiveCfg = Release|Win32
+		{803BF59D-B587-4701-A2E0-C6F21EACED3F}.Release|Win32.Build.0 = Release|Win32
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136}.Debug|Win32.Build.0 = Debug|Win32
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136}.Develop|Win32.ActiveCfg = Develop|Win32
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136}.Develop|Win32.Build.0 = Develop|Win32
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136}.Release|Win32.ActiveCfg = Release|Win32
+		{BD7F3F04-5D93-430C-8862-E0F13C5D5136}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

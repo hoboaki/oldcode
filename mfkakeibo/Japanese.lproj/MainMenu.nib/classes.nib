@@ -1,0 +1,33 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {newBook = id; openBook = id; testFunction = id; viewInputPanel = id; }; 
+            CLASS = BootClass; 
+            LANGUAGE = Java; 
+            OUTLETS = {myMenuAccount = NSMenu; }; 
+            SUPERCLASS = "java.lang.Object"; 
+        }, 
+        {
+            ACTIONS = {
+                addAccount = id; 
+                checkAccount = id; 
+                checkAccountAll = id; 
+                deleteRecord = id; 
+                editAccount = id; 
+                editBook = id; 
+                editRecord = id; 
+                newRecord = id; 
+                saveBook = id; 
+                saveBookAs = id; 
+                uncheckAccountAll = id; 
+                viewCalc = id; 
+                viewInputPanel = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

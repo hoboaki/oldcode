@@ -1,0 +1,159 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DDABD223-A216-45A8-B307-EF0BFA79380E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ACScript</RootNamespace>
+    <AssemblyName>ACScript</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlockStatement.cs" />
+    <Compile Include="DeclarationStatement.cs" />
+    <Compile Include="ExpressionStatement.cs" />
+    <Compile Include="FunctionArgumentDecl.cs" />
+    <Compile Include="AssignmentExpression.cs" />
+    <Compile Include="BinaryOpExpression.cs" />
+    <Compile Include="BuiltInType.cs" />
+    <Compile Include="CastExpression.cs" />
+    <Compile Include="ChildIdentExpression.cs" />
+    <Compile Include="ConditionalExpression.cs" />
+    <Compile Include="ConstantLiteralExpression.cs" />
+    <Compile Include="DeleteExpression.cs" />
+    <Compile Include="ExternalModuleDecl.cs" />
+    <Compile Include="ExternalModuleDecls.cs" />
+    <Compile Include="FunctionArgumentDeclList.cs" />
+    <Compile Include="FunctionCallExpression.cs" />
+    <Compile Include="FunctionReturnValueDecl.cs" />
+    <Compile Include="FunctionSymbolNode.cs" />
+    <Compile Include="Identifier.cs" />
+    <Compile Include="IdentPath.cs" />
+    <Compile Include="IExpression.cs" />
+    <Compile Include="IndexExpression.cs" />
+    <Compile Include="InheritInterface.cs" />
+    <Compile Include="IStatement.cs" />
+    <Compile Include="ISymbolNode.cs" />
+    <Compile Include="Lexer.cs" />
+    <Compile Include="LexerTest.cs" />
+    <Compile Include="MemberFunctionDecl.cs" />
+    <Compile Include="ModuleSymbolNode.cs" />
+    <Compile Include="NamespaceSymbolNode.cs" />
+    <Compile Include="RootSymbolNode.cs" />
+    <Compile Include="SemanticAnalyzeComponent.cs" />
+    <Compile Include="SymbolExpandCmdKind.cs" />
+    <Compile Include="SymbolNodeKind.cs" />
+    <Compile Include="SymbolNodeList.cs" />
+    <Compile Include="SymbolTree.cs" />
+    <Compile Include="NewExpression.cs" />
+    <Compile Include="Parser_Expression.cs" />
+    <Compile Include="PostfixExpression.cs" />
+    <Compile Include="RootIdentExpression.cs" />
+    <Compile Include="SequenceExpression.cs" />
+    <Compile Include="SymbolDef.cs" />
+    <Compile Include="MemberVariableDecl.cs" />
+    <Compile Include="ModuleContext.cs" />
+    <Compile Include="ModuleDecl.cs" />
+    <Compile Include="ModuleDef.cs" />
+    <Compile Include="Parser.cs" />
+    <Compile Include="ParserTest.cs" />
+    <Compile Include="Protection.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticTypeDef.cs" />
+    <Compile Include="Token.cs" />
+    <Compile Include="TokenArray.cs" />
+    <Compile Include="Tracer.cs" />
+    <Compile Include="TypeInfo.cs" />
+    <Compile Include="TypePath.cs" />
+    <Compile Include="TypeSymbolNode.cs" />
+    <Compile Include="UnaryOpExpression.cs" />
+    <Compile Include="VariableDecl.cs" />
+    <Compile Include="VariableSymbolNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows インストーラ 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

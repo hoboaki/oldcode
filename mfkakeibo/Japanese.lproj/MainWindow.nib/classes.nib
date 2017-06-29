@@ -1,0 +1,63 @@
+{
+    IBClasses = (
+        {
+            CLASS = AccountInfo; 
+            LANGUAGE = Java; 
+            OUTLETS = {
+                myCarryPrice = NSTextField; 
+                myInputTotal = NSTextField; 
+                myOutputTotal = NSTextField; 
+                myRecordCount = NSTextField; 
+                myRestPrice = NSTextField; 
+            }; 
+            SUPERCLASS = "java.lang.Object"; 
+        }, 
+        {
+            ACTIONS = {
+                actAccountApply = id; 
+                actAccountDelete = id; 
+                actAccountEdit = id; 
+                actAccountNew = id; 
+            }; 
+            CLASS = DrawerController; 
+            LANGUAGE = Java; 
+            OUTLETS = {
+                myAccountCategoryBrowser = NSBrowser; 
+                myAccountCategoryButton = NSButton; 
+                myAccountDateButton = NSButton; 
+                myAccountDateFrom = NSDatePicker; 
+                myAccountDateTo = NSDatePicker; 
+                myAccountInfo = id; 
+                myAccountPopup = NSPopUpButton; 
+                myDrawer = NSDrawer; 
+                myWindow = id; 
+            }; 
+            SUPERCLASS = "java.lang.Object"; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = KCView; LANGUAGE = Java; SUPERCLASS = NSView; }, 
+        {
+            CLASS = KFSplitView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {kfDelegate = id; }; 
+            SUPERCLASS = NSSplitView; 
+        }, 
+        {
+            CLASS = MainWindow; 
+            LANGUAGE = Java; 
+            OUTLETS = {
+                myDrawerController = id; 
+                myMatrixView = MatrixView; 
+                myMessageTextView = NSTextField; 
+                myStatusTextView = NSTextField; 
+                myTableView = NSTableView; 
+                myWindow = NSWindow; 
+            }; 
+            SUPERCLASS = "java.lang.Object"; 
+        }, 
+        {CLASS = MatrixView; LANGUAGE = Java; SUPERCLASS = NSView; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

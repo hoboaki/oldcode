@@ -1,0 +1,147 @@
+/* Common */
+Common_AppName = "もふもふ家計簿";
+
+/* Document */
+Document_Untitled = "Untitled";
+
+/* Keyword */
+
+ViewMode_year = "年";
+ViewMode_monthOfYear = "月";
+ViewMode_weakOfYear = "週";
+ViewMode_dayOfMonth = "日";
+ViewMode_fiscalYear = "年度";
+ViewMode_halfOfFiscalYear = "半期";
+ViewMode_quarterOfFiscalYear = "四半期";
+
+Key_year = "年";
+Key_month = "月";
+Key_day = "日";
+
+Key_sunday = "日";
+Key_monday = "月";
+Key_tuesday = "火";
+Key_wednesday = "水";
+Key_thursday = "木";
+Key_friday = "金";
+Key_saturday = "土";
+
+NameOfAbstractSheet = "概要";
+NameOfCarryMoney = "繰越金";
+NameOfSubTotal = "小計";
+NameOfRestMoney = "残金";
+
+/* MainWindow */
+MainWindow_Unit = "件";
+
+/* +Matrix */
+SelectAllSymbol = "<>";
+
+/* DataEditPanel */
+DataEditPanel_Title = "入力パネル";
+
+/* Toolbar */
+New_Label = "New";
+New_PaletteLabel = "New";
+New_Tip = "Create New Document";
+
+Open_Label = "Open";
+Open_PaletteLabel = "Open";
+Open_Tip = "Open Document";
+
+Save_Label = "保存";
+Save_PaletteLabel = "上書き保存";
+Save_Tip = "ブックを上書き保存する";
+
+SheetPopup_Label = "アクティブシート";
+SheetPopup_PaletteLabel = "アクティブシート";
+SheetPopup_Tip = "表示するアクティブシートを選択する";
+
+InputRecord_Label = "作成";
+InputRecord_PaletteLabel = "レコード作成";
+InputRecord_Tip = "新規レコードを作成する";
+
+EditRecord_Label = "編集";
+EditRecord_PaletteLabel = "レコード編集";
+EditRecord_Tip = "既存のレコードを編集する";
+
+DeleteRecord_Label = "削除";
+DeleteRecord_PaletteLabel = "レコード削除";
+DeleteRecord_Tip = "既存のレコードを削除する";
+
+Print_Label = "Print";
+Print_PaletteLabel = "Print";
+Print_Tip = "Print Document";
+
+Cut_Label = "Cut";
+Cut_PaletteLabel = "Cut";
+Cut_Tip = "Cut";
+
+Copy_Label = "Copy";
+Copy_PaletteLabel = "Copy";
+Copy_Tip = "Copy";
+
+Paste_Label = "Paste";
+Paste_PaletteLabel = "Paste";
+Paste_Tip = "Paste";
+
+Delete_Label = "Delete";
+Delete_PaletteLabel = "Delete";
+Delete_Tip = "Delete";
+
+Undo_Label = "元に戻す";
+Undo_PaletteLabel = "元に戻す";
+Undo_Tip = "一つ前の状態に戻す";
+
+Redo_Label = "やり直す";
+Redo_PaletteLabel = "やり直す";
+Redo_Tip = "取り消した作業を再びする";
+
+Find_Label = "Find";
+Find_PaletteLabel = "Find";
+Find_Tip = "Find";
+
+Configure_Label = "カスタマイズ";
+Configure_PaletteLabel = "カスタマイズ";
+Configure_Tip = "ツールバーをカスタマイズする";
+
+Panel_Label = "情報";
+Panel_PaletteLabel = "情報";
+Panel_Tip = "情報パネルを開け閉めする";
+
+/* Category */
+Category_Input = "入金";
+Category_PureInput = "収入";
+Category_MoveInput = "預貯金引出";
+Category_Output = "出金";
+Category_PureOutput = "支出";
+Category_MoveOutput = "預貯金預入";
+
+Account_New = "新しい口座の作成";
+
+/* Record */
+Record_Account = "口座";
+Record_Name = "品目";
+Record_Date = "日付";
+Record_Price = "金額";
+Record_Category = "カテゴリ";
+Record_Comment = "コメント";
+
+Tip_Bracket_Start = "【";
+Tip_Bracket_End = "】";
+
+/* Alert */
+Alert_Yes = "はい";
+Alert_No = "いいえ";
+Alert_Cancel = "キャンセル";
+Alert_Save = "保存";
+Alert_DontSave = "保存しない";
+Alert_Ok = "OK";
+
+Alert_CantOpenFile_Title = "ファイルを開くことができませんでした。";
+Alert_CantOpenFile_Msg = "ファイル形式が異なる可能性があります。";
+Alert_InputPrice = "値を金額欄に入力して下さい";
+Alert_SelectCategory = "カテゴリーを選択して下さい";
+Alert_NotSaveYet_Title = "この家計簿は変更されています。保存しますか？";
+Alert_NotSaveYet_Msg = "保存しないと、変更内容が失われます。";
+

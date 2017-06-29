@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "もふもふ家計簿";
+NSHumanReadableCopyright = "© 秋野ぺんぎん, 2006-2007";

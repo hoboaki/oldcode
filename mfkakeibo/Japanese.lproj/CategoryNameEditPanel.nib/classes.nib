@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {cancel = id; ok = id; }; 
+            CLASS = CategoryNameEditPanel; 
+            LANGUAGE = Java; 
+            OUTLETS = {myName = NSTextField; myPanel = NSPanel; myPath = NSTextField; }; 
+            SUPERCLASS = "java.lang.Object"; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

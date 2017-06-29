@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8F07BB3D-EB2A-4072-8B95-34366AFB5168}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShibaCompiler</RootNamespace>
+    <AssemblyName>ShibaCompiler</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\Assert.cs" />
+    <Compile Include="src\bytecode\BCLabel.cs" />
+    <Compile Include="src\bytecode\BCLabelReference.cs" />
+    <Compile Include="src\bytecode\BCSymbolLinkTable.cs" />
+    <Compile Include="src\CompileError.cs" />
+    <Compile Include="src\CompileErrorKind.cs" />
+    <Compile Include="src\Compiler.cs" />
+    <Compile Include="src\expression\AssignmentExpression.cs" />
+    <Compile Include="src\bytecode\BCConstantValue.cs" />
+    <Compile Include="src\bytecode\BCConstantValueTable.cs" />
+    <Compile Include="src\bytecode\BCFunction.cs" />
+    <Compile Include="src\bytecode\BCFunctionList.cs" />
+    <Compile Include="src\bytecode\BCObjectType.cs" />
+    <Compile Include="src\bytecode\BCObjectTypeList.cs" />
+    <Compile Include="src\bytecode\BCOpCode.cs" />
+    <Compile Include="src\bytecode\BCSymbolLink.cs" />
+    <Compile Include="src\expression\BinaryOpExpression.cs" />
+    <Compile Include="src\Parser_Statement.cs" />
+    <Compile Include="src\statement\BlockStatement.cs" />
+    <Compile Include="src\BuiltInType.cs" />
+    <Compile Include="src\expression\CastExpression.cs" />
+    <Compile Include="src\expression\ChildIdentExpression.cs" />
+    <Compile Include="src\expression\ConditionalExpression.cs" />
+    <Compile Include="src\expression\ConstantLiteralExpression.cs" />
+    <Compile Include="src\statement\BreakStatement.cs" />
+    <Compile Include="src\statement\ContinueStatement.cs" />
+    <Compile Include="src\statement\DeclarationStatement.cs" />
+    <Compile Include="src\expression\DeleteExpression.cs" />
+    <Compile Include="src\EvaluatedSymbolNode.cs" />
+    <Compile Include="src\EvaluateInfo.cs" />
+    <Compile Include="src\EvaluateScope.cs" />
+    <Compile Include="src\statement\DoWhileStatement.cs" />
+    <Compile Include="src\statement\ExpressionStatement.cs" />
+    <Compile Include="src\declaration\ExternalModuleDecl.cs" />
+    <Compile Include="src\declaration\ExternalModuleDecls.cs" />
+    <Compile Include="src\declaration\FunctionArgumentDecl.cs" />
+    <Compile Include="src\declaration\FunctionArgumentDeclList.cs" />
+    <Compile Include="src\expression\FunctionCallExpression.cs" />
+    <Compile Include="src\declaration\FunctionReturnValueDecl.cs" />
+    <Compile Include="src\statement\ForStatement.cs" />
+    <Compile Include="src\statement\IfStatement.cs" />
+    <Compile Include="src\statement\ReturnStatement.cs" />
+    <Compile Include="src\statement\StatementUtil.cs" />
+    <Compile Include="src\statement\WhileStatement.cs" />
+    <Compile Include="src\symbolnode\FunctionSymbolNode.cs" />
+    <Compile Include="src\Identifier.cs" />
+    <Compile Include="src\IdentPath.cs" />
+    <Compile Include="src\IEvaluateNode.cs" />
+    <Compile Include="src\expression\IExpression.cs" />
+    <Compile Include="src\expression\IndexExpression.cs" />
+    <Compile Include="src\InheritType.cs" />
+    <Compile Include="src\statement\IStatement.cs" />
+    <Compile Include="src\symbolnode\ISymbolNode.cs" />
+    <Compile Include="src\Lexer.cs" />
+    <Compile Include="src\LexerTest.cs" />
+    <Compile Include="src\declaration\MemberFunctionDecl.cs" />
+    <Compile Include="src\declaration\MemberVariableDecl.cs" />
+    <Compile Include="src\bytecode\BCModule.cs" />
+    <Compile Include="src\ModuleContext.cs" />
+    <Compile Include="src\declaration\ModuleDecl.cs" />
+    <Compile Include="src\definition\ModuleDef.cs" />
+    <Compile Include="src\symbolnode\ModuleSymbolNode.cs" />
+    <Compile Include="src\symbolnode\NamespaceSymbolNode.cs" />
+    <Compile Include="src\expression\NewExpression.cs" />
+    <Compile Include="src\Parser.cs" />
+    <Compile Include="src\ParserTest.cs" />
+    <Compile Include="src\Parser_Expression.cs" />
+    <Compile Include="src\expression\PostfixExpression.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Protection.cs" />
+    <Compile Include="src\expression\RootIdentExpression.cs" />
+    <Compile Include="src\symbolnode\RootSymbolNode.cs" />
+    <Compile Include="src\SemanticAnalyzeComponent.cs" />
+    <Compile Include="src\EvaluateNodeEventKind.cs" />
+    <Compile Include="src\expression\SequenceExpression.cs" />
+    <Compile Include="src\StackRegister.cs" />
+    <Compile Include="src\definition\StaticTypeDef.cs" />
+    <Compile Include="src\definition\SymbolDef.cs" />
+    <Compile Include="src\SymbolExpandCmdKind.cs" />
+    <Compile Include="src\SymbolNodeKind.cs" />
+    <Compile Include="src\SymbolNodeList.cs" />
+    <Compile Include="src\SymbolNodeUtil.cs" />
+    <Compile Include="src\SymbolTree.cs" />
+    <Compile Include="src\SymbolTreeTest.cs" />
+    <Compile Include="src\Token.cs" />
+    <Compile Include="src\TokenArray.cs" />
+    <Compile Include="src\Tracer.cs" />
+    <Compile Include="src\TransferredEIHolder.cs" />
+    <Compile Include="src\TypeInfo.cs" />
+    <Compile Include="src\TypePath.cs" />
+    <Compile Include="src\symbolnode\TypeSymbolNode.cs" />
+    <Compile Include="src\expression\UnaryOpExpression.cs" />
+    <Compile Include="src\declaration\VariableDecl.cs" />
+    <Compile Include="src\symbolnode\VariableSymbolNode.cs" />
+    <Compile Include="src\XDataWriter.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
